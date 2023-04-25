@@ -13,8 +13,5 @@ eureka:
     register-with-eureka: true
     service-url:
       defaultZone: ${EUREKA_SERVER_URL:http://localhost:8761/eureka}
-    enabled: true
-    healthcheck:
-      enabled: true
     initial-instance-info-replication-interval-seconds: 10
     registry-fetch-interval-seconds: 10
